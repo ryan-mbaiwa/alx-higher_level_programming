@@ -8,7 +8,7 @@ def new_in_list(my_list, idx, element):
     if idx > length - 1:
         return (my_list)
 
-    new_list = my_list
+    new_list = my_list[:]
 
     new_list[idx] = element
 
