@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+
+This module is composed by a class that defines a Rectangle
+
+
+"""
 class Square:
     """ A class that defines a square by its size
     """
