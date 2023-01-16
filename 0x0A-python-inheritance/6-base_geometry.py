@@ -5,6 +5,7 @@ A module based on a class that raises an exception
 
 """
 
+
 class BaseGeometry:
     """empty class """
     
