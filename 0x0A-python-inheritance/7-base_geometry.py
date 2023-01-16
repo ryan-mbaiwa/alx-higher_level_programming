@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+
+A module based on a class that raises an exception and validator
+
+"""
 class BaseGeometry:
     """ Class that defines the attributes of Geometric Shapes """
 
