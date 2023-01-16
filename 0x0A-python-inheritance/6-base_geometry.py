@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 
-A module based on a class tha raises an exception 
+A module based on a class that raises an exception 
 
 """
 
