@@ -1,27 +1,25 @@
 #!/usr/bin/python3
 """
 
-A module based on a class that raises an exception and validator
+A module based on a class Square that inherits and import from class Rectangle
 
 """
-class BaseGeometry:
-    """ Class that defines the attributes of Geometric Shapes """
+Rectangle = __import__('9-rectangle').Rectangle
+
+
+class Square(Rectangle):
+    """ Class that defines a Square from Rectangle class """
+
+    def __init__(self, size):
+        """ Method that initializes a Square """
+        self.integer_validator("size", size)
+        self.__size = size
+        super().__init__(self.__size, self.__size)
 
     def area(self):
-        """ Method that defines the area of a geomtric shape """
+        """ Method that returns a string with the area """
+        return super().area()
 
-        raise Exception("area() is not implemented")
-
-    def integer_validator(self, name, value):
-        """ Method that recieves the value property
-
-        Árgs:
-            name: name of the object
-            value: value of the property
-
-        """
-
-        if type(value) is not int:
-            raise TypeError("{} must be an integer".format(name))
-        if value <= 0:
-            raise ValueError("{} must be greater than 0".format(name))
+    def __str__(self):
+        """ Special method that returns a printable string """
+        return "[Square] {}/{}".format(self.__size, self.__size)

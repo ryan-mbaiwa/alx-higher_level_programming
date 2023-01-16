@@ -1,4 +1,11 @@
 #!/usr/bin/python3
+"""
+
+A module with a class that contains a function below
+
+"""
+
+
 def add_attribute(obj, name, value):
     """ Function that adds a new attribute to an object
 
