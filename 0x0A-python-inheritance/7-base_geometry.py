@@ -4,6 +4,8 @@
 A module based on a class Square that inherits and import from class Rectangle
 
 """
+
+
 Rectangle = __import__('9-rectangle').Rectangle
 
 
