@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 
-This module  object is exactly an instance of a class that Inherited from the specified class
+This module  test the execution the function below
 
 """
 
