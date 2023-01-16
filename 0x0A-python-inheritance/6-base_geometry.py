@@ -1,4 +1,4 @@
-#!/usr/bin/pthon3
+#!/usr/bin/python3
 """
 
 A module based on a class tha raises an exception 

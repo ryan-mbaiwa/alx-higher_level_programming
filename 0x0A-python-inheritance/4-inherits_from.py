@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
 
-This module  tests if the object is exactly an instance of a class that Inherited (directly or indirectly) from the specified class
+This module  tests if the object is exactly an instance of a class that 
+Inherited (directly or indirectly) from the specified class
 
 """
 
